@@ -238,7 +238,7 @@ class lazPnts:
     
     def denoiseNonLocal(self, h=.1, search_radius=.5, k=20):
         """
-        Non-local means denoising for 3D point clouds.
+        Non-local means denoising for 3D point clouds. THIS TAKES FOREVER AND IS NOT RECOMMENDED
         
         Args:
             h (float): Filtering parameter controlling smoothing strength.
